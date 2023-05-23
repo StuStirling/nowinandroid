@@ -24,7 +24,7 @@ android {
 
 dependencies {
     api(project(":core:datastore"))
-    api(libs.androidx.dataStore.core)
+    api(libs.androidx.datastore)
 
     implementation(project(":core:common"))
     implementation(project(":core:testing"))
